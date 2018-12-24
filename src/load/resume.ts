@@ -15,5 +15,5 @@ export const resume:string = `# 侯策
 
 # 更多内容请参考
 
-* [圣诞狗粮](https://houce.github.io/love)
+* [圣诞狗粮](https://houce.github.io/love) 
 `
