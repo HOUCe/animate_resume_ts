@@ -9,7 +9,7 @@ Front End Engineer
 
 # Work Experience
 
-* 上海垓方
+* 上海
 
 # Projects
 
