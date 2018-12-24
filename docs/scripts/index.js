@@ -6010,7 +6010,7 @@ body {
 }
 `;
 exports.style2 = `/**
- * 美化一下页面内容
+ * 最后美化一下页面内容
  */
 
 #resume-container{
