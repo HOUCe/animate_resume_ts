@@ -1,24 +1,19 @@
-export const resume:string = `# Qi
+export const resume:string = `# 侯策
 
-Front End Engineer
+男，29岁，职业程序猿
 
-# Availability
+# 将圣诞祝福送给：
 
-* html, css, js
-* jquery, vue, react
+* 女朋友：高榕阳
+* 父母、兄长和嫂子，亲朋好友和所有看到的人
 
-# Work Experience
+# 祝福你们
 
-* 上海
+* 🌞🌞🌞身体健康🌞🌞🌞
+* 💰💰💰财源滚滚💰💰💰
+* 🎄🎄🎄圣诞快乐🎄🎄🎄
 
-# Projects
+# 更多内容请参考
 
-* [www.gigacre.com](http://www.gigacre.com/)
-
-# My Source
-
-* [vue_teris](https://qishaoxuan.github.io/vue_tetris/)
-* [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
-* [JS Tricks](https://qishaoxuan.github.io/js_tricks/)
-* [Bolg](https://qishaoxuan.github.io/blog/)
+* [圣诞狗粮](https://houce.github.io/love)
 `

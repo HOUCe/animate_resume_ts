@@ -1,21 +1,18 @@
-# QiShaoXuan
+# 侯策
 
-Front End Engineer
+男，29岁，职业程序猿
 
-# Availability
+# 将圣诞祝福送给：
 
-* html, css, js, ts, nodejs
-* jquery, vue, react
-* gulp, webpack
-* threejs, cesiumjs
+* 女朋友：高榕阳
+* 父母、兄长和嫂子，亲朋好友和所有看到的人
 
-# Projects
+# 祝福你们
 
-* [www.gigacre.com](www.gigacre.com)
+* 🌞🌞🌞身体健康🌞🌞🌞
+* 💰💰💰财源滚滚💰💰💰
+* 🎄🎄🎄圣诞快乐🎄🎄🎄
 
-# Open Source
+# 更多内容请参考
 
-* [vue_teris](https://qishaoxuan.github.io/vue_tetris/)
-* [css_tricks](https://qishaoxuan.github.io/css_tricks/)
-* [js_tricks](https://qishaoxuan.github.io/js_tricks/)
-* [blog](https://qishaoxuan.github.io/blog/)
+* [圣诞狗粮](https://houce.github.io/love)

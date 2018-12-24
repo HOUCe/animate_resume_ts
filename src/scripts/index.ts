@@ -34,10 +34,6 @@ const ar = new AnimateResume(container, {
 
 const skipBtn: HTMLElement = document.querySelector('#skip-btn')
 
-skipBtn.addEventListener('click', function () {
-  ar.skip()
-  skipBtn.style.display = 'none'
-})
 
 ar.animate(() => {
   skipBtn.style.display = 'none'

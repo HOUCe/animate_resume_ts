@@ -5874,29 +5874,24 @@ Prism.languages.js = Prism.languages.javascript;
 },{}],4:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.resume = `# Qi
+exports.resume = `# 侯策
 
-Front End Engineer
+男，29岁，职业程序猿
 
-# Availability
+# 将圣诞祝福送给：
 
-* html, css, js
-* jquery, vue, react
+* 女朋友：高榕阳
+* 父母、兄长和嫂子，亲朋好友和所有看到的人
 
-# Work Experience
+# 祝福你们
 
-* 上海垓方
+* 🌞🌞🌞身体健康🌞🌞🌞
+* 💰💰💰财源滚滚💰💰💰
+* 🎄🎄🎄圣诞快乐🎄🎄🎄
 
-# Projects
+# 更多内容请参考
 
-* [www.gigacre.com](http://www.gigacre.com/)
-
-# My Source
-
-* [vue_teris](https://qishaoxuan.github.io/vue_tetris/)
-* [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
-* [JS Tricks](https://qishaoxuan.github.io/js_tricks/)
-* [Bolg](https://qishaoxuan.github.io/blog/)
+* [圣诞狗粮](https://houce.github.io/love)
 `;
 
 },{}],5:[function(require,module,exports){
@@ -5906,12 +5901,12 @@ const untils_1 = require("../scripts/animateResume/untils/untils");
 const is_mobile = untils_1.isMobile();
 exports.style1 = `/**
  *
- * Hey. My name's qishaoxuan. I'm a web developer.
+ * 你们好，我的名字叫 Lucas（侯策），职业是程序猿
  *
- * I build a animating resume
+ * 这里我直播写代码，教大家怎么美化一个圣诞祝福页面
  *
- * Let's begin. We start by animating...
- * yes, everything.
+ * 让我们开始吧...
+ * 真的开始啦～
  */
 
 * {
@@ -5919,10 +5914,10 @@ exports.style1 = `/**
 }
 
 /**
- * It seems to do noting. But you'll see.
+ * 看上去什么也没有啊，不要着急，你等下
  *
- * Black on white is really boring,
- * change threm first.
+ * 白底黑字写代码看上去有点烦，
+ * 我们还是先改一下字和背景吧
  */
 
 html {
@@ -5932,7 +5927,7 @@ html {
 }
 
 /***
- * Hold on...
+ * 稍等片刻...
  */
 
 pre, a {
@@ -5940,11 +5935,11 @@ pre, a {
 }
 
 /**
- * That's better.
+ * 这样好一些
  *
- * Working in this big rempty space is tough.
+ * 干写代码什么也看不出来
  *
- * I'm going to make a nice area to show the content.
+ * 我开辟一个空间，上半部分展示写代码，下半部分用来展示代码效果
  */
 
 pre:not(:empty) {
@@ -5970,8 +5965,8 @@ pre:not(:empty) {
 }
 
 /**
- * This is good, but all the text is white!
- * Let's make it more readable.
+ * 这样不错，但是代码都是白色，看上去晕晕的
+ * 我让代码可读性更高一些
  */
 
 #style-container  { color: #DEDEDE }
@@ -5983,7 +5978,7 @@ pre:not(:empty) {
 .punctuation   { color: #FFCF00; }
 
 /**
- * It\`s time to get a little perspective.
+ * 再加一点立体效果
  */
 
 body {
@@ -5996,8 +5991,8 @@ body {
 }
 
 /**
- * Okey, it is time to show the resume.
- * You must not just come to see the pretty colors.
+ * 不错不错
+ * 接下来导入圣诞祝福页面吧
  */
 
  #resume-container {
@@ -6015,7 +6010,7 @@ body {
 }
 `;
 exports.style2 = `/**
- * That markdown on the left doesn't look great. Let's render it.
+ * 美化一下页面内容
  */
 
 #resume-container{
@@ -6041,14 +6036,17 @@ exports.style2 = `/**
 }
 
 /**
- * Okey, this is almost done.
+ * 这基本上就做完了
  *
- * This page is inspired by http://strml.net/， which was what I met when I was a beginner of js.
+ * 搞了这些什么意思呢
  *
- * It is really surprise me, and now I can code it by myself.
+ * 就是想让大家看看代码怎么生成世间万物
  *
- * Ertainly，most of sentences is from that, my English is very poor~ after all.
+ * 最后祝我爱的人和爱我的亲们🎄圣诞快乐，尤其是女朋友——高榕阳！
  *
+ * 最后祝我爱的人和爱我的亲们🎄圣诞快乐，尤其是女朋友——高榕阳！
+ *
+ * 最后祝我爱的人和爱我的亲们🎄圣诞快乐，尤其是女朋友——高榕阳！
  */`;
 
 },{"../scripts/animateResume/untils/untils":8}],6:[function(require,module,exports){
@@ -6083,7 +6081,7 @@ class AnimateResume {
             let num = 0;
             const sum = item.load.length;
             let originContent = item.rewrite ? '' : container.innerHTML;
-            const interval = 16;
+            const interval = 32;
             let styleEl;
             if (item.type === 'css') {
                 styleEl = untils_1.getStyleEl();
@@ -6310,10 +6308,6 @@ const ar = new index_1.default(container, {
     }
 });
 const skipBtn = document.querySelector('#skip-btn');
-skipBtn.addEventListener('click', function () {
-    ar.skip();
-    skipBtn.style.display = 'none';
-});
 ar.animate(() => {
     skipBtn.style.display = 'none';
 });
