@@ -42,7 +42,7 @@ export default class AnimateResume implements Core {
       let num = 0
       const sum = item.load.length
       let originContent = item.rewrite ? '' : container.innerHTML
-      const interval = 32
+      const interval = 16
 
       let styleEl: Element
       if (item.type === 'css') {

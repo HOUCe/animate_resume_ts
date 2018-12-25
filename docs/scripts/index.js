@@ -5880,18 +5880,15 @@ exports.resume = `# 侯策
 
 # 将圣诞祝福送给：
 
-* 女朋友：高榕阳
-* 父母、兄长和嫂子，亲朋好友和所有看到的人
+* 父母、兄长和嫂子，以及所有家人
+* 所有亲朋好友，感谢有你们
+* 所有看到的人
 
 # 祝福你们
 
 * 🌞🌞🌞身体健康🌞🌞🌞
 * 💰💰💰财源滚滚💰💰💰
 * 🎄🎄🎄圣诞快乐🎄🎄🎄
-
-# 更多内容请参考
-
-* [圣诞狗粮](https://houce.github.io/love) 
 `;
 
 },{}],5:[function(require,module,exports){
@@ -6042,11 +6039,11 @@ exports.style2 = `/**
  *
  * 就是想让大家看看代码怎么生成世间万物
  *
- * 最后再次祝所有人🎄圣诞快乐🎄，尤其是女朋友——高榕阳！
+ * 最后再次祝所有人🎄🎄🎄圣诞快乐🎄🎄🎄
  *
- * 最后再次祝所有人🎄圣诞快乐🎄，尤其是女朋友——高榕阳！
+ * 最后再次祝所有人🎄🎄🎄圣诞快乐🎄🎄🎄
  *
- * 最后再次祝所有人🎄圣诞快乐🎄，尤其是女朋友——高榕阳！
+ * 最后再次祝所有人🎄🎄🎄圣诞快乐🎄🎄🎄
  */`;
 
 },{"../scripts/animateResume/untils/untils":8}],6:[function(require,module,exports){
@@ -6081,7 +6078,7 @@ class AnimateResume {
             let num = 0;
             const sum = item.load.length;
             let originContent = item.rewrite ? '' : container.innerHTML;
-            const interval = 32;
+            const interval = 16;
             let styleEl;
             if (item.type === 'css') {
                 styleEl = untils_1.getStyleEl();
